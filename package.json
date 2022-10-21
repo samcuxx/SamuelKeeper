@@ -15,16 +15,12 @@
   "devDependencies": {
     "typescript": "3.3.3"
   },
-  // "scripts": {
-  //   "start": "react-scripts start",
-  //   "build": "react-scripts build",
-  //   "test": "react-scripts test --env=jsdom",
-  //   "eject": "react-scripts eject"
-  // },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build": "react-scripts build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
+
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
